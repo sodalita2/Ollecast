@@ -1,0 +1,29 @@
+
+
+
+
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
+  font-weight: normal;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: auto;
+  color: white;
+  background-color: black;
+  transition: color 0.5s, background-color 0.5s;
+  font-family: sans-serif;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

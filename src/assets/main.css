@@ -1,0 +1,10 @@
+@import './base.css';
+
+#app {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
